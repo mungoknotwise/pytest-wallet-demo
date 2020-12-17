@@ -47,7 +47,7 @@ def fixture_my_wallet():
     (30, 10, 20),
     (20, 2, 18),
 ])
-def test_tramsactions(my_wallet, earned, spent, expected):
+def test_transactions(my_wallet, earned, spent, expected):
     '''Test wallet transactions'''
     my_wallet.add_cash(earned)
     my_wallet.spend_cash(spent)
